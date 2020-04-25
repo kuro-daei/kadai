@@ -1,20 +1,16 @@
 import calc from "../src/calc";
 
 describe("Calc", () => {
-  test("+", () => {
-    const answer = calc(1, 5, "+");
-    expect(answer).toBe(6);
+  test("10", () => {
+    const s = calc(10);
+    expect(s).toBe(55);
   });
-  test("-", () => {
-    const answer = calc(5, 2, "-");
-    expect(answer).toBe(3);
+  test("0", () => {
+    const s = calc(0);
+    expect(s).toBe(0);
   });
-  test("*", () => {
-    const answer = calc(3, 4, "*");
-    expect(answer).toBe(12);
-  });
-  test("/", () => {
-    const answer = calc(6, 2, "/");
-    expect(answer).toBe(3);
+  test("2", () => {
+    const s = calc(2);
+    expect(s).toBe(3);
   });
 });

@@ -1,8 +1,8 @@
-export default function calc(a, b, operator) {
-  console.log(`${a} ${operator} ${b} = ?`);
-  let answer = 0;
+export default function calc(n) {
+  console.log(`n = ${n}`);
+  let sum = 0;
   /*-- ここから変更 --*/
 
   /*-- ここまで変更 --*/
-  return answer;
+  return sum;
 }
