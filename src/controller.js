@@ -1,5 +1,5 @@
 import { circle, point } from "./draw";
-import { isInCircle } from "./pai";
+import { isInCircle, calcPai } from "./pai";
 
 export default class Controller {
   constructor() {
@@ -19,5 +19,7 @@ export default class Controller {
     }
     const spanInCircle = document.getElementById("incircle");
     spanInCircle.innerText = inCircle;
+    const pai = document.getElementById("pai");
+    pai.innerText = calcPai(inCircle, n);
   }
 }

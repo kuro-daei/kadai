@@ -1,13 +1,19 @@
-// 1辺 2r の正方形の中に完全に内包される、半径rの円があります。
-// 円の中心を x=0, y=0 として、点(x,y)が円の中に入っていれば
-// isInCircle に true、円の外にあれば isInCircle に false を入れてください。
-function isInCircle(x, y, r) {
-  console.log(`x:${x},y:${y},r:${r}`);
-  let isInCircle = false;
+// 円の中に入った点の数 n と全体の点の数 totalから円周率を求めます。
+// 変数 pai に求めた円周率を入れます。
+function calcPai(n, total) {
+  console.log(`n:${n}, total:${total}`);
+  let pai = 0;
   // ここから修正
 
   // ここまで修正
+  return pai;
+}
+
+function isInCircle(x, y, r) {
+  console.log(`x:${x},y:${y},r:${r}`);
+  let isInCircle = false;
+  isInCircle = Math.sqrt(x * x + y * y) <= r;
   return isInCircle;
 }
 
-export { isInCircle };
+export { isInCircle, calcPai };
