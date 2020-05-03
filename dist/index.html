@@ -9,7 +9,7 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <title>課題「秒から時間に」</title>
+    <title>課題「いろはから3文字」</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -43,47 +43,79 @@
     <div class="container">
       <div>
         <h1>
-          課題「秒から時間に」
+          課題「いろはから3文字」
         </h1>
         <br />
         <div class="form-row">
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="minutes"
-              placeholder="分"
-            />
+          <h3>「いろはにほへとちりぬるを」の</h3>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="pick1" class="col-form-label">1番目</label>
+            <select id="pick1" class="form-control">
+              <option value="1">1文字目</option>
+              <option value="2">2文字目</option>
+              <option value="3">3文字目</option>
+              <option value="4">4文字目</option>
+              <option value="5">5文字目</option>
+              <option value="6">6文字目</option>
+              <option value="7">7文字目</option>
+              <option value="8">8文字目</option>
+              <option value="9">9文字目</option>
+              <option value="10">10文字目</option>
+              <option value="11">11文字目</option>
+              <option value="12">12文字目</option>
+            </select>
           </div>
-          <div class="form-group col-md-1">
-            <button type="submit" class="btn btn-primary" id="equal">
-              =
+          <div class="form-group col-md-4">
+            <label for="pick2" class="col-form-label">2番目</label>
+            <select id="pick2" class="form-control">
+              <option value="1">1文字目</option>
+              <option value="2">2文字目</option>
+              <option value="3">3文字目</option>
+              <option value="4">4文字目</option>
+              <option value="5">5文字目</option>
+              <option value="6">6文字目</option>
+              <option value="7">7文字目</option>
+              <option value="8">8文字目</option>
+              <option value="9">9文字目</option>
+              <option value="10">10文字目</option>
+              <option value="11">11文字目</option>
+              <option value="12">12文字目</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="pick3" class="col-form-label">3番目</label>
+            <select id="pick3" class="form-control">
+              <option value="1">1文字目</option>
+              <option value="2">2文字目</option>
+              <option value="3">3文字目</option>
+              <option value="4">4文字目</option>
+              <option value="5">5文字目</option>
+              <option value="6">6文字目</option>
+              <option value="7">7文字目</option>
+              <option value="8">8文字目</option>
+              <option value="9">9文字目</option>
+              <option value="10">10文字目</option>
+              <option value="11">11文字目</option>
+              <option value="12">12文字目</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <button type="submit" class="btn btn-primary" id="compose">
+              で出来る文字は
             </button>
           </div>
-          <div class="form-group col-md-2">
+          <div class="form-group col-md-12">
             <input
               type="text"
               class="form-control"
-              id="ans_hours"
-              placeholder="時間"
+              id="output"
+              placeholder="文字列"
             />
-          </div>
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="ans_minutes"
-              placeholder="分"
-            />
-          </div>
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="ans_seconds"
-              placeholder="秒"
-            />
-          </div>
           </div>
         </div>
       </div>

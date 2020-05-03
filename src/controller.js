@@ -1,14 +1,15 @@
-import calc from "./calc";
+import iroha from "./iroha";
 
 export default class Controller {
   constructor() {
-    const equal = document.getElementById("equal");
-    equal.addEventListener("click", () => {
-      const minutes = parseInt(document.getElementById("minutes").value);
-      const answer = calc(minutes);
-      document.getElementById("ans_hours").value = answer.hours;
-      document.getElementById("ans_minutes").value = answer.minutes;
-      document.getElementById("ans_seconds").value = answer.seconds;
+    const compose = document.getElementById("compose");
+    compose.addEventListener("click", () => {
+      const pick1 = parseInt(document.getElementById("pick1").value);
+      const pick2 = parseInt(document.getElementById("pick2").value);
+      const pick3 = parseInt(document.getElementById("pick3").value);
+      const str = "いろはにほへとちりぬるを";
+      const output = iroha(pick1, pick2, pick3, str);
+      document.getElementById("output").value = output;
     });
   }
 }
