@@ -9,7 +9,7 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <title>課題</title>
+    <title>課題「16進数」</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -43,8 +43,41 @@
     <div class="container">
       <div>
         <h1>
-          課題
+          課題「16進数」
         </h1>
       </div>
-      </body>
+      <div class="form-row">
+        <div class="form-group col-xs-6">
+          <input
+            type="text"
+            class="form-control"
+            id="input"
+            placeholder="入力"
+          />
+        </div>
+        <div class="form-group col-xs-6">
+          <select id="mode" class="form-control">
+            <option value="hex">10進から16進へ</option>
+            <option value="dec">16進から10進へ</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-xs-6">
+          <button type="submit" class="btn btn-primary" id="convert">
+            変換
+          </button>
+        </div>
+        <div class="form-group col-xs-6">
+          <input
+            type="text"
+            class="form-control"
+            id="output"
+            placeholder="出力"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
