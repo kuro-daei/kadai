@@ -2,20 +2,20 @@
 // inputもoutputも文字列にしてください。
 function hex(input) {
   console.log(`10進から16進に変換, input:${input}`);
-  let output = "";
+  let hexOutput = "";
   // ここから修正
   // ここまで修正
-  return output;
+  return hexOutput;
 }
 
 // 16進数 から 10進数 に変換します。
 // inputもoutputも文字列にしてください。
 function dec(input) {
   console.log(`16進から10進に変換, input:${input}`);
-  let output = "";
+  let decOutput = "";
   // ここから修正
   // ここまで修正
-  return output;
+  return decOutput;
 }
 
 // mode が "hex" の時に 10進数 から 16進数 に変換、
