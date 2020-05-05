@@ -1,4 +1,4 @@
-import { rpsn } from "./rps";
+import rpsn from "./rpsn";
 
 export default class Controller {
   constructor() {
