@@ -9,7 +9,7 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <title>課題</title>
+    <title>課題「コイン分配問題」</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -43,8 +43,47 @@
     <div class="container">
       <div>
         <h1>
-          課題
+          課題「コイン分配問題」
         </h1>
       </div>
-      </body>
+      <div class="form-row">
+        <label>回数</label>
+        <div class="form-group col-xs-6">
+          <select id="n" class="form-control">
+            <option value="10000">1000回</option>
+            <option value="1000000">100万回</option>
+            <option value="5000000" selected>500万回</option>
+          </select>
+        </div>
+        <div class="form-group col-xs-6">
+          <button type="submit" class="btn btn-primary" id="exec">
+            実験開始
+          </button>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>それぞれのコインの数</label>
+      </div>
+      <div class="form-row" id="results">
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans0" />
+        </div>
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans1" />
+        </div>
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans2" />
+        </div>
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans3" />
+        </div>
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans4" />
+        </div>
+        <div class="form-group col-xs-6">
+          <input type="text" class="form-control" id="ans5" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
