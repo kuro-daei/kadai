@@ -1,16 +1,10 @@
-# 子供向けプログラミング課題
+# 課題「いろは」
 
-課題は **ブランチ毎** になってます。
+「いろは」の文字列の中から 3 文字を指定して、新しい文字列を作ります。
 
-ある程度Webの開発が出来る大人と一緒にやってください。
-少なくとも node と聞いてピンと来る人と。
+## 開発について
 
-### 課題：四則演算
-https://github.com/kuro-daei/kadai/tree/calc
+**Visual Studio Code** での開発を想定しています。
 
-### 課題：繰り返し
-https://github.com/kuro-daei/kadai/tree/loop
-
-### 課題：円周率を求める
-https://github.com/kuro-daei/kadai/tree/pai2
-
+- ターミナルを 2 分割し、左で `npm run build` 右で `npm run dmo` を実行してください。
+- http://localhost:8080 で実際のページが見れます。
