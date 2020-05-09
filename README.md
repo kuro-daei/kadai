@@ -1,16 +1,20 @@
-# 子供向けプログラミング課題
+# 課題「じゃんけん」
 
-課題は **ブランチ毎** になってます。
+`src/rpsn.js` を修正してください。
 
-ある程度Webの開発が出来る大人と一緒にやってください。
-少なくとも node と聞いてピンと来る人と。
+`n` 人でジャンケンしたときの勝敗と、グー・チョキ・パーの人数を計算します。
 
-### 課題：四則演算
-https://github.com/kuro-daei/kadai/tree/calc
+1 回のジャンケンには `rps` 関数を使ってください。
+`rps` 関数はランダムで `rock` `paper` `scissors` を返します。
 
-### 課題：繰り返し
-https://github.com/kuro-daei/kadai/tree/loop
+- 勝負が付いたら `isWin` に `true` を、引き分けの時は `false` を入れてください。
+- rocks にはグーの数を。
+- papers にはパーの数を。
+- scissors にはチョキの数を。
 
-### 課題：円周率を求める
-https://github.com/kuro-daei/kadai/tree/pai2
+## 開発について
 
+**Visual Studio Code** での開発を想定しています。
+
+- ターミナルを 2 分割し、左で `npm run build` 右で `npm run dmo` を実行してください。
+- http://localhost:8080 で実際のページが見れます。

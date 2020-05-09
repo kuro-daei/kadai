@@ -47,46 +47,35 @@
         </h1>
       </div>
       <br />
-      <div class="form-row">
-        <label>人数</label>
-        <div class="form-group col-xs-6">
-          <select id="n" class="form-control">
-            <option value="1">1人</option>
-            <option value="3">3人</option>
-            <option value="10">10人</option>
-            <option value="100">100人</option>
-          </select>
-        </div>
-        <div class="form-group col-xs-6">
-          <button type="submit" class="btn btn-primary" id="exec">
-            じゃんけん！
-          </button>
-        </div>
+      <div class="form-group">
+        <label for="n">人数</label>
+        <select id="n" class="form-control">
+          <option value="1">1人</option>
+          <option value="3">3人</option>
+          <option value="10">10人</option>
+          <option value="100">100人</option>
+        </select>
       </div>
-      <br />
-      <div class="form-row">
-        <label>勝負は</label>
-        <div class="form-group col-xs-6">
-          <input type="text" class="form-control" id="isWin" />
-        </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" id="exec">
+          じゃんけん！
+        </button>
       </div>
-      <div class="form-row">
-        <label>グーの個数：</label>
-        <div class="form-group col-xs-6">
-          <input type="text" class="form-control" id="rocks" />
-        </div>
+      <div class="form-group">
+        <label for="isWin">勝負は</label>
+        <input type="text" class="form-control" id="isWin" />
       </div>
-      <div class="form-row">
-        <label>パーの個数：</label>
-        <div class="form-group col-xs-6">
-          <input type="text" class="form-control" id="papers" />
-        </div>
+      <div class="form-group">
+        <label for="rocks">グーの個数：</label>
+        <input type="text" class="form-control" id="rocks" />
       </div>
-      <div class="form-row">
-        <label>チョキの個数：</label>
-        <div class="form-group col-xs-6">
-          <input type="text" class="form-control" id="scissors" />
-        </div>
+      <div class="form-group">
+        <label for="papers">パーの個数：</label>
+        <input type="text" class="form-control" id="papers" />
+      </div>
+      <div class="form-group">
+        <label for="scissors">チョキの個数：</label>
+        <input type="text" class="form-control" id="scissors" />
       </div>
     </div>
   </body>
