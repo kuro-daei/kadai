@@ -1,4 +1,4 @@
-import rpsn from "./rpsn";
+import rpsn from "./kadai";
 
 export default class Controller {
   constructor() {
