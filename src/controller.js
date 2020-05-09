@@ -1,4 +1,4 @@
-import calc from "./calc";
+import calc from "./kadai";
 
 export default class Controller {
   constructor() {
