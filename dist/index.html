@@ -9,7 +9,7 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <title>課題「コイン分配問題」</title>
+    <title>課題「FizzBuzz」</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -43,46 +43,30 @@
     <div class="container">
       <div>
         <h1>
-          課題「コイン分配問題」
+          課題「FizzBuzz」
         </h1>
       </div>
       <div class="form-group">
         <label for="n">回数</label>
         <select id="n" class="form-control">
-          <option value="10000">1000回</option>
-          <option value="1000000">100万回</option>
-          <option value="5000000" selected>500万回</option>
+          <option value="10">10まで</option>
+          <option value="100">100まで</option>
+          <option value="1000" selected>1000まで</option>
         </select>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary" id="exec">
-          実験開始
+          FizzBuzz!
         </button>
       </div>
-      <h3>それぞれのコインの数</h3>
       <div class="form-group">
-        <label for="ans0">1番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans0" />
-      </div>
-      <div class="form-group">
-        <label for="ans1">2番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans1" />
-      </div>
-      <div class="form-group">
-        <label for="ans2">3番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans2" />
-      </div>
-      <div class="form-group">
-        <label for="ans3">4番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans3" />
-      </div>
-      <div class="form-group">
-        <label for="ans4">5番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans4" />
-      </div>
-      <div class="form-group">
-        <label for="ans5">6番目の人のコイン数</label>
-        <input type="text" class="form-control" id="ans5" />
+        <label for="output">答え</label>
+        <textarea
+          id="output"
+          class="form-control"
+          id="output"
+          rows="3"
+        ></textarea>
       </div>
     </div>
   </body>
