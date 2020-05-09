@@ -12,10 +12,25 @@
     <title>課題 円の中に入ってるか</title>
     <link
       rel="stylesheet"
-      href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script src="./main.js"></script>
 
     <style>
@@ -34,11 +49,15 @@
           辺2Rの正方形の中に無作為においた1万個の点のうち、四角に完全に内包される
           半径Rの円の中に入った点は<span id="incircle"></span>個です。
         </div>
-        <div>
-          πは<span id="pai"></span>です。
-        </div>
-        <canvas width="200" height="200" id="canvas" style="background-color:gray;"></canvas>
-        <input type='hidden' id='n' value='10000'/>
+        <div>πは<span id="pai"></span>です。</div>
+        <canvas
+          width="200"
+          height="200"
+          id="canvas"
+          style="background-color: gray;"
+        ></canvas>
+        <input type="hidden" id="n" value="10000" />
       </div>
-      </body>
+    </div>
+  </body>
 </html>
