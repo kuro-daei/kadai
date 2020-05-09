@@ -1,5 +1,8 @@
 export default class Controller {
   constructor() {
-    this.name = "sample";
+    document.getElementById("exec").addEventListener("click", () => {
+      const q = document.getElementById("q").value;
+      document.getElementById("a").value = q;
+    });
   }
 }
