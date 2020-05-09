@@ -20,11 +20,6 @@ export default function fizzbuzz(n) {
   console.log(`n=${n}`);
   let numbers = [];
   // ここから修正
-  for (let i = 1; i <= n; i++) {
-    numbers.push(
-      (i % 3 === 0 ? "Fizz" : "") + (i % 5 === 0 ? "Buzz" : "") || i
-    );
-  }
   // ここまで修正
   return numbers;
 }
