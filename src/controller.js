@@ -1,5 +1,5 @@
 import { circle, point } from "./draw";
-import { isInCircle, calcPai } from "./pai";
+import { isInCircle, calcPai } from "./kadai";
 
 export default class Controller {
   constructor() {

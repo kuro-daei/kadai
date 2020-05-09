@@ -1,7 +1,7 @@
-import { isInCircle } from "../src/pai";
+import { calcPai, isInCircle } from "../src/kadai";
 
-describe("Controller", () => {
-  test("in", () => {
+describe("kadai", () => {
+  test("isInCircle in", () => {
     let isIn = false;
     isIn = isInCircle(0, 0, 10);
     expect(isIn).toBe(true);
@@ -13,7 +13,7 @@ describe("Controller", () => {
     expect(isIn).toBe(true);
   });
 
-  test("out", () => {
+  test("isInCircle out", () => {
     let isIn = false;
     isIn = isInCircle(10, 10, 10);
     expect(isIn).toBe(false);
@@ -21,5 +21,10 @@ describe("Controller", () => {
     expect(isIn).toBe(false);
     isIn = isInCircle(10.1 / Math.sqrt(2), 10.1 / Math.sqrt(2), 10);
     expect(isIn).toBe(false);
+  });
+
+  test("calcPai", () => {
+    const pai = calcPai(10, 20);
+    expect(pai).toBe(2);
   });
 });
