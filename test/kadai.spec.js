@@ -1,5 +1,5 @@
 import dice from "../src/dice";
-import coins from "../src/coins";
+import coins from "../src/kadai";
 jest.mock("../src/dice");
 describe("coins", () => {
   afterEach(() => {
