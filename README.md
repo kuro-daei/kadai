@@ -1,16 +1,21 @@
-# 子供向けプログラミング課題
+# 課題「秒から時・分・秒に」
 
-課題は **ブランチ毎** になってます。
+分数から時・分に変換します。
 
-ある程度Webの開発が出来る大人と一緒にやってください。
-少なくとも node と聞いてピンと来る人と。
+`src/calc.js` の `calc` を変更してください。
 
-### 課題：四則演算
-https://github.com/kuro-daei/kadai/tree/calc
+入力された分 (input) から時、分 を計算して
 
-### 課題：繰り返し
-https://github.com/kuro-daei/kadai/tree/loop
+- hours (時)
+- minutes (分)
 
-### 課題：円周率を求める
-https://github.com/kuro-daei/kadai/tree/pai2
+に代入します。
 
+商の整数部分を出すには Math.floor() を使います。
+余りを出すには % を使います。
+
+**例**<br/>
+11 ÷ 3 の商と余りは次のように計算します。
+
+- 商: Math.floor(11/3) → 3
+- 余り: 11 % 3 → 2
