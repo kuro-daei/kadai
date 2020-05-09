@@ -13,7 +13,6 @@ export default function calc(input) {
   let minutes = 0;
   let seconds = 0;
   /*-- ここから変更 --*/
-
   /*-- ここまで変更 --*/
   return { hours, minutes, seconds };
 }

@@ -1,4 +1,4 @@
-import calc from "../src/calc";
+import calc from "../src/kadai";
 
 describe("calc", () => {
   test("zero", () => {
