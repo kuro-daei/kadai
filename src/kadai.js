@@ -12,7 +12,8 @@ export default function calc(input) {
   let hours = 0;
   let minutes = 0;
   /*-- ここから変更 --*/
-
+  hours = Math.floor(input / 60);
+  minutes = input % 60;
   /*-- ここまで変更 --*/
   return { hours, minutes };
 }
