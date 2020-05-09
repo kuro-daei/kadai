@@ -9,7 +9,7 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <title>課題「秒から時間に」</title>
+    <title>課題「秒から時・分・秒に」</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -43,48 +43,29 @@
     <div class="container">
       <div>
         <h1>
-          課題「秒から時間に」
+          課題「秒から時・分・秒に」
         </h1>
         <br />
-        <div class="form-row">
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="minutes"
-              placeholder="分"
-            />
-          </div>
-          <div class="form-group col-md-1">
-            <button type="submit" class="btn btn-primary" id="equal">
-              =
-            </button>
-          </div>
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="ans_hours"
-              placeholder="時間"
-            />
-          </div>
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="ans_minutes"
-              placeholder="分"
-            />
-          </div>
-          <div class="form-group col-md-2">
-            <input
-              type="text"
-              class="form-control"
-              id="ans_seconds"
-              placeholder="秒"
-            />
-          </div>
-          </div>
+        <div class="form-group">
+          <label for="sec">秒</label>
+          <input type="text" class="form-control" id="seconds" />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" id="equal">
+            変換
+          </button>
+        </div>
+        <div class="form-group">
+          <label for="sec">時</label>
+          <input type="text" class="form-control" id="ans_hours" />
+        </div>
+        <div class="form-group">
+          <label for="sec">分</label>
+          <input type="text" class="form-control" id="ans_minutes" />
+        </div>
+        <div class="form-group">
+          <label for="sec">秒</label>
+          <input type="text" class="form-control" id="ans_seconds" />
         </div>
       </div>
     </div>
